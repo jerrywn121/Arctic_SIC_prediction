@@ -12,6 +12,13 @@ In practice, the LSTM is realized by training the ConvLSTM model with kernel siz
 
 
 ## How to Use
+
+- **Dependencies**\
+xarray==0.17.0\
+netcdf4==1.5.6\
+torch==1.7.1\
+numpy==1.19.1
+
 - **Data**\
 We suggest the following way of handling the data, but there can be a more convinient way.
   1. The monthly SIC data used in this study can be downloaded from National Snow and Ice Data Center (NSIDC) https://nsidc.org/data/nsidc-0051, which also contains a detailed description of the dataset and user guide. Download the data and arange them as **data/year/monthly_file**
