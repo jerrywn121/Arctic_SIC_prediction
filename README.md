@@ -19,10 +19,14 @@ We suggest the following way of handling the data, but there can be a more convi
   ```
   ./gen_data_text.sh
   ```
-  3. read and store the processed data to facilitate data reading next time, by calling the write_netcdf function and pass the output file name in the previous step as the argument
+  3. read and store the processed data to facilitate data reading next time, by calling the write_netcdf function and pass the output file name in the previous step as the argument, e.g.,
+  ```
+  from utils import write_netcdf
+  write_netcdf("./data/data.txt", start_time, end_time, "./data/full_sic.nc")
+  ```
 
 - **Train**\
-change relevant parameters in the config.py file and run
+change relevant parameters in the config.py file, put all the scripts under the same folder and run
 ```
 python train.py
 ```
