@@ -1,4 +1,4 @@
-# Arctic Sea Ice Concentration prediction
+# Prediction of Arctic Sea Ice Concentration
 Models for Predicting Sea Ice Concentration (SIC) in the Arctic.
 The study is based on the fact that the literature generally fail to model the spatiotemporal evolution of the sea ice concentration
 
