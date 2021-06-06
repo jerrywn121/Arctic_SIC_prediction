@@ -33,7 +33,7 @@ We suggest the following way of handling the data, but there can be a more convi
   ```
 
 - **Train**\
-change relevant parameters in the config.py file, put all the scripts under the same folder and run
+change relevant parameters and the .nc file path in the config.py file, put all the scripts under the same folder and run
 ```
 python train.py
 ```
